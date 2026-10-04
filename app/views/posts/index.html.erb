@@ -1,0 +1,11 @@
+<h1>Members Only</h1>
+
+<% @posts.each do |post| %>
+  <div>
+    <p><%= post.body %></p>
+
+    <% if user_signed_in? %>
+      <p>Posted by: <%= post.user.name %></p>
+    <% end %>
+  </div>
+<% end %>
