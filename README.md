@@ -1,24 +1,25 @@
-# README
+Members Only
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Members Only is a Ruby on Rails application I built as part of The Odin Project.
 
-Things you may want to cover:
+The project is an exclusive clubhouse where users can sign up, sign in, and create posts. Visitors can see the posts, but only signed-in users can see who wrote each post.
 
-* Ruby version
+Features
+User registration and authentication with Devise
+Users can create posts
+All visitors can view posts
+Only signed-in users can see who wrote each post
+Guests cannot create posts
+Users can sign out
+Built With
+Ruby
+Ruby on Rails
+SQLite3
+Devise
+Turbo
+HTML / ERB
+Git
+GitHub
+The Odin Project
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This project was completed as part of The Odin Project's Ruby on Rails curriculum.
